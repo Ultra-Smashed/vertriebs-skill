@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vertrieb",
+  "description": "Vom ersten Kontakt bis zum fertigen Angebot, mit einem Trainer für die harten Einwände.",
+  "owner": {
+    "name": "Christopher Thanisch",
+    "url": "https://thanisch.co"
+  },
+  "plugins": [
+    {
+      "name": "vertrieb",
+      "description": "Übernimmt die Akquise: Gesprächsvorbereitung, Angebot mit drei Paketen, Preis-Kalkulator, Nachfassen, Kaltakquise und Einwand-Trainer.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
